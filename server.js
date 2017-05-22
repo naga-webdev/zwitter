@@ -15,7 +15,7 @@ app.get('/',function(req,res){
 
 
 app.get('*',function(req,res){
-    return res.redirect('/login');
+    return res.redirect('/');
 })
 
 
